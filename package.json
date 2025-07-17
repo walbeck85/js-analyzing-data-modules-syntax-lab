@@ -10,5 +10,6 @@
   },
   "dependencies": {
     "datejs": "^1.0.0-rc3"
-  }
+  },
+  "__comment": "This project uses ESM syntax and must run tests using --experimental-vm-modules"
 }
