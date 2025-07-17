@@ -6,10 +6,20 @@
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "devDependencies": {
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "jest-junit": "^16.0.0"  
   },
   "dependencies": {
     "datejs": "^1.0.0-rc3"
   },
-  "__comment": "This project uses ESM syntax and must run tests using --experimental-vm-modules"
+  "__comment__": "This project uses ESM syntax and must run tests using --experimental-vm-modules",
+  "jest": {                     
+    "reporters": [
+      "default",
+      ["jest-junit", {
+        "outputDirectory": "./",
+        "outputName": "junit.xml"
+      }]
+    ]
+  }
 }

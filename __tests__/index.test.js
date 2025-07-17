@@ -1,6 +1,6 @@
 // index.test.js
 // Tests for the combineUsers function
-import { combineUsers } from './index.js';
+import { combineUsers } from '../index.js';
 import 'datejs';
 // Jest test suite for combineUsers function
 describe('combineUsers function return', () => {

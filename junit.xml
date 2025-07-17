@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="2" failures="0" errors="0" time="0.379">
+  <testsuite name="combineUsers function return" errors="0" failures="0" skipped="0" timestamp="2025-07-17T21:25:25" time="0.342" tests="2">
+    <testcase classname="combineUsers function return merges multiple arrays and adds merge date" name="combineUsers function return merges multiple arrays and adds merge date" time="0.003">
+    </testcase>
+    <testcase classname="combineUsers function return returns empty array when no arguments passed" name="combineUsers function return returns empty array when no arguments passed" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>
