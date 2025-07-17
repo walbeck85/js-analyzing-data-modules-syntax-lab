@@ -20,11 +20,3 @@ export function combineUsers(...args) {
 // Return the combined object
   return combinedObject;
 }
-
-const result = combineUsers(
-  ['alice', 'bob'],
-  ['charlie', 'diana'],
-  ['eve']
-);
-
-console.log(result);
