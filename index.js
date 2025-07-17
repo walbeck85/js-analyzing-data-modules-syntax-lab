@@ -20,11 +20,11 @@ export function combineUsers(...args) {
 // Return the combined object
   return combinedObject;
 }
-// TEMP: Test the function directly
+
 const result = combineUsers(
   ['alice', 'bob'],
   ['charlie', 'diana'],
   ['eve']
 );
-// TEMP: Log the result to verify
+
 console.log(result);
