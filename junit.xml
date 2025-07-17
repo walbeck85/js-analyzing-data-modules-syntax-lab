@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="2" failures="0" errors="0" time="0.352">
-  <testsuite name="combineUsers function return" errors="0" failures="0" skipped="0" timestamp="2025-07-17T21:33:28" time="0.311" tests="2">
+<testsuites name="jest tests" tests="2" failures="0" errors="0" time="0.38">
+  <testsuite name="combineUsers function return" errors="0" failures="0" skipped="0" timestamp="2025-07-17T21:45:21" time="0.342" tests="2">
     <testcase classname="combineUsers function return merges multiple arrays and adds merge date" name="combineUsers function return merges multiple arrays and adds merge date" time="0.002">
     </testcase>
-    <testcase classname="combineUsers function return returns empty array when no arguments passed" name="combineUsers function return returns empty array when no arguments passed" time="0">
+    <testcase classname="combineUsers function return returns empty array when no arguments passed" name="combineUsers function return returns empty array when no arguments passed" time="0.001">
     </testcase>
   </testsuite>
 </testsuites>

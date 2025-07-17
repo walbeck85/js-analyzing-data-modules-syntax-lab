@@ -1,3 +1,6 @@
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
+require('datejs'); // This loads datejs using require() as per README instructions.
 // Import datejs
 import 'datejs';
 // Function to combine multiple arrays of usernames and add a merge date
