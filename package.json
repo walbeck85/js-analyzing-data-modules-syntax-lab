@@ -1,14 +1,10 @@
 {
-  "name": "js-merge-users-lab",
+  "name": "js-analyzing-data-modules-syntax-lab",
   "version": "1.0.0",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "jest"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "devDependencies": {
     "jest": "^29.7.0"
   },
